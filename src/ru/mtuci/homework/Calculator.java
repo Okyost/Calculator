@@ -12,7 +12,7 @@ public class Calculator {
 
     BufferedReader consoleReader = new BufferedReader(new InputStreamReader(System.in));
 
-    System.out.println("Введите 1 число");
+    System.out.println("Введите одно число");
     String aValue = consoleReader.readLine();
     double a = Double.parseDouble(aValue);
 
